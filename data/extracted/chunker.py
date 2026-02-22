@@ -39,7 +39,7 @@ openai_key = os.getenv("OPENAI_API_KEY")
 llm = ChatOpenAI(
     api_key=openai_key,
     model_name="gpt-3.5-turbo",
-    temperature=0.1,
+    temperature=0.7,
     rate_limiter=rate_limter
 )
 
